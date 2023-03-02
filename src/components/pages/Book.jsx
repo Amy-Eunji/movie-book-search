@@ -4,7 +4,6 @@ import { getBookList } from "../../apis";
 import BookList from "../organisms/BookList";
 import Pagination from "../organisms/Pagination";
 import { useLocation, useNavigate } from "react-router-dom";
-import logo512 from "../../assets/images/logo512.png";
 import qs from "qs";
 
 const Book = () => {
